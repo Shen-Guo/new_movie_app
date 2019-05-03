@@ -7,9 +7,9 @@ The app allows users to allow users to search the database of movies.
 
 
 ## ScreenShot
-![Screen shot](Screenshot from 2019-05-03 20-19-57.png)
+![Screen shot]("Screenshot from 2019-05-03 20-19-57.png")
 
-![Screen shot](Screenshot from 2019-05-03 20-20-04.png)
+![Screen shot]("Screenshot from 2019-05-03 20-20-04.png")
 
 
 ## Struggles
