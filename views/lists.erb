@@ -1,0 +1,15 @@
+
+<h3>Search Result: </h3>
+
+
+<ul> 
+    <% @lists.each do |hash|%>
+    
+    <li class="movie-list">
+    <a href="/movies/<%= (hash["imdbID"]) %>"> <%= hash["Title"] %> <%= hash["Year"] %></a>
+    <img src="<%= (hash["Poster"]) %>" alt="poster">
+    </li>
+    <%end %>    
+</ul>
+
+

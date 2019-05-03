@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>movie app</title>  
+  
+  <link rel='stylesheet' href='/stylesheets/main.css'>
+</head>
+<body>
+  <div class="container">
+    <nav>
+      <a href="/">Home</a>
+      <a href="/movies">Movies</a>
+      <a href="/history">History</a>
+    </nav>
+    <%# <nav >
+      <ul class="navbar-nav">
+        <li class="nav-item active">
+          <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/movies">Movies</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/history">History</a>
+        </li>  
+      </ul>
+    </nav> %>
+
+    <%= yield %>
+  </div>
+
+</body>
+</html>

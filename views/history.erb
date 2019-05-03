@@ -1,0 +1,17 @@
+
+
+<h3>Search History: </h3>
+<div>
+<form action="/history/clear" method="post">
+  <button class="clear-btn">Clear history</button>
+</form>
+  <ul class="search-result">
+    <%@file.each do |line|%>
+    <li><%=line%></li>
+    
+    <%end%>
+  </ul>
+
+</div>
+
+ 
